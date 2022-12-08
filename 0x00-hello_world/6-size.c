@@ -4,7 +4,7 @@
  * main - Print size of various types
  * Description: This program prints various sizes of various data types
  * Return:(0)
- */
+*/
 
 int main(void)
 {
@@ -16,8 +16,8 @@ int main(void)
 
 	printf("Size of a char: %lu byte(s)\n", sizeof(one));
 	printf("Size of an int: %lu byte(s)\n", sizeof(two));
-	printf("Size of a long init: %lu byte(s)\n", sizeof(three));
-	printf("Size of a long long init: %lu byte(s)\n", sizeof(four));
+	printf("Size of a long int: %lu byte(s)\n", sizeof(three));
+	printf("Size of a long long int: %lu byte(s)\n", sizeof(four));
 	printf("Size of a float: %lu byte(s)\n", sizeof(five));
 	return (0);
 }
