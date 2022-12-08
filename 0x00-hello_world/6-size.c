@@ -1,20 +1,14 @@
 #include <stdio.h>
 
-
-
 /**
- 
  * main- Print size of various types
  * Description: This program prints various sizes of various data types
  * Return:(0)
 */
 
-
-
 int main(void)
 
 {
-
 	char one;
 	int two;
 	long int three;
@@ -27,5 +21,4 @@ int main(void)
 	printf("Size of a long long int: %lu byte(s)\n", sizeof(four));
 	printf("Size of a float: %lu byte(s)\n", sizeof(five));
 	return (0);
-
 }
