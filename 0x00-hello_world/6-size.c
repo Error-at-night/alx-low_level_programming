@@ -3,14 +3,13 @@
 
 
 /**
- *
- *  * main- Print size of various types
- *
- *   * Description: This program prints various sizes of various data types
- *
- *    * Return:(0)
- *
- *    */
+ 
+ * main- Print size of various types
+ * Description: This program prints various sizes of various data types
+ * Return:(0)
+*/
+
+
 
 int main(void)
 
