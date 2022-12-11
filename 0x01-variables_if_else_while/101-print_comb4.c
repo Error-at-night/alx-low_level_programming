@@ -11,7 +11,7 @@ int main(void)
 
 	z = 48;
 	f = 48;
-	c= 48;
+	c = 48;
 
 	while (f < 58)
 	{
