@@ -17,7 +17,7 @@ int main(void)
 		z = 48;
 		while (z < 58)
 		{
-			if (e != z && f < z)
+			if (f != z && f < z)
 			{
 				putchar(f);
 				putchar(z);
@@ -28,9 +28,9 @@ int main(void)
 				putchar(',');
 				putchar(' ');
 			}
-			z++
+			z++;
 		}
-		f++
+		f++;
 	}
 	putchar('\n');
 	return (0);
