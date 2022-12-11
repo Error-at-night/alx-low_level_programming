@@ -26,15 +26,15 @@ int main(void)
 
 					op1 = (h * 10) + c;
 					op2 = (f * 10) + z;
-					if (op1 < op2)
+				if (op1 < op2)
 				{
 					putchar(h);
 					putchar(c);
 					putchar(' ');
 					putchar(f);
 					putchar(z);
-					if (h == 57 && c == 56 && f == 57 && z == 57)
-						break;
+				if (h == 57 && c == 56 && f == 57 && z == 57)
+					break;
 					putchar(',');
 					putchar(' ');
 				}
